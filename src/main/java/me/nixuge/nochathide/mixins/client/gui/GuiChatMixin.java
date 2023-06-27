@@ -29,6 +29,7 @@ public class GuiChatMixin {
         if (keyCode == 1 || keyCode == 28 || keyCode == 156) {
             chatManager.setChatShown(false);
             chatManager.setChatMsg("");
+            return;
         }
 
         chatManager.setChatMsg(inputField.getText());
