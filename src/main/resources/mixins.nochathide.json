@@ -1,0 +1,15 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.nixuge.nochathide.mixins",
+  "refmap": "refmap.nochathide.json",
+  "mixins": [],
+  "client": [
+    "client.gui.GuiChatMixin",
+    "client.gui.GuiDownloadTerrainMixin",
+    "client.gui.GuiScreenMixin",
+    "client.MinecraftMixin",
+    "client.network.NetHandlerPlayClientMixin",
+    "network.NetworkManagerMixin"
+  ],
+  "server": []
+}
