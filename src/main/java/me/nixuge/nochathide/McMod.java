@@ -2,9 +2,7 @@ package me.nixuge.nochathide;
 
 import lombok.Getter;
 import lombok.Setter;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 @Mod(
         modid = McMod.MOD_ID,
@@ -25,9 +23,4 @@ public class McMod {
     private static McMod instance;
     @Getter
     private static ChatManager chatManager = new ChatManager();
-
-    @Mod.EventHandler
-    public void init(final FMLInitializationEvent event) {
-        MinecraftForge.EVENT_BUS.register(new EventHandler());
-    }
 }
