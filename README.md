@@ -13,3 +13,5 @@ I tried probably a dozen different mixins and NOTHING else worked.
 If you wanna see which ones I tried, look at the first commit on github and go to the mixins/ folder.
 
 Now yes, this isn't the best as it gets called quite a lot which is something i'd like to avoid, but until I/someone else find some way to avoid that, it'll remain like that.
+
+Nota that while (a bit) unoptimized, this however has the side effect to make this mod active at ALL times, eg when a GUI opens while you're typing in chat.
