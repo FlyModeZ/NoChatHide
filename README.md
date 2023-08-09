@@ -1,5 +1,9 @@
 # NoChatHide
-A mod that prevents the chat from getting cleared when you reload a world.
+A legacy Forge mod that prevents the chat from getting cleared when you reload the world/change dimension/etc.
+
+### Also works when a new GUI opens while you're typing in chat, your message will appear right back after you close the GUI
+
+I've been told the feature is on the Lunar Client too.
 
 # (dev question) Why is the mixin to show the chat inside NetworkManager?
 TLDR; I couldn't find ANY other consistent way to show a chat in game except this one.
